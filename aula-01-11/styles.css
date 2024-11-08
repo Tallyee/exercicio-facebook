@@ -1,0 +1,121 @@
+.principal {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+.primeira {
+    display: flex;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+
+}
+
+.segunda {
+    display: flex;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+}
+
+
+
+img {
+    clip-path: circle();
+    width: 38px;
+}
+
+/* para chamar o svg */
+.lupa button svg {
+    fill: white;
+    width: 20px;
+}
+
+.mensagem button svg {
+    fill: white;
+    width: 20px;
+}
+
+.sino button svg {
+    fill: white;
+    width: 20px;
+}
+
+
+
+/* para chamar button */
+.lupa button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(88, 88, 88);
+}
+
+.mensagem button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(88, 88, 88);
+}
+
+.sino button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(88, 88, 88);
+
+}
+
+.sino {
+    position: relative;
+}
+
+span {
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+    right: -9px;
+    top: -7px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: -9px;
+}
+
+
+
+
+.flecha button svg {
+    fill: white;
+    width: 10px;
+
+}
+
+.img {
+    position: relative;
+
+}
